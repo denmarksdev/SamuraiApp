@@ -1,2 +1,2 @@
 # SamuraiApp
-Samurai App use Entitity Core 3.0 and ASP.NET Core API
+Samurai App use Entity Core 3.0 and ASP.NET Core API
