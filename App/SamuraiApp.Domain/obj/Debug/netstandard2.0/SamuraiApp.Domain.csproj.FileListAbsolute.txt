@@ -1,0 +1,16 @@
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\bin\Debug\netstandard2.0\SamuraiApp.Domain.deps.json
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\bin\Debug\netstandard2.0\SamuraiApp.Domain.dll
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\bin\Debug\netstandard2.0\SamuraiApp.Domain.pdb
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.csprojAssemblyReference.cache
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.AssemblyInfo.cs
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.dll
+C:\Users\Marks\source\repos\SamuraiApp\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.pdb
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\bin\Debug\netstandard2.0\SamuraiApp.Domain.deps.json
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\bin\Debug\netstandard2.0\SamuraiApp.Domain.dll
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\bin\Debug\netstandard2.0\SamuraiApp.Domain.pdb
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.csprojAssemblyReference.cache
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.AssemblyInfoInputs.cache
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.AssemblyInfo.cs
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.dll
+E:\repos\SamuraiApp\App\SamuraiApp.Domain\obj\Debug\netstandard2.0\SamuraiApp.Domain.pdb
