@@ -13,6 +13,11 @@ namespace SamuraiApp.Data
         public DbSet<Battle> Battles { get; set; }
         public DbSet<SamuraiBattleStat> SamuraiBattleStats { get; set; }
 
+        public SamuraiContext(DbContextOptions<SamuraiContext> options):base(options)
+        {
+            ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
+        }
+
         public static readonly ILoggerFactory ConsoleLoggerFactory = LoggerFactory.Create(builder =>
         {
             builder
@@ -21,26 +26,6 @@ namespace SamuraiApp.Data
                     level == LogLevel.Information)
                 .AddConsole();
         });
-
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            var builder = new SqlConnectionStringBuilder
-            {
-                DataSource = @"DESKTOP-PUHO045\SQLEXPRESS01",
-                InitialCatalog = "SamuraiAppData",
-                IntegratedSecurity = true
-            };
-
-            optionsBuilder
-                .UseLoggerFactory(ConsoleLoggerFactory)
-                .EnableSensitiveDataLogging()
-                .UseSqlServer( builder.ToString(), o =>  o
-                    .MinBatchSize(1)
-                    .MaxBatchSize(200)
-             );
-            base.OnConfiguring(optionsBuilder);
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

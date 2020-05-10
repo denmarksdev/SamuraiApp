@@ -78,7 +78,7 @@ namespace SamuraiAPI.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
-        public async Task<ActionResult<Samurai>> PostSamurai(Samurai samurai)
+          public async Task<ActionResult<Samurai>> PostSamurai(Samurai samurai)
         {
             _context.Samurais.Add(samurai);
             await _context.SaveChangesAsync();
